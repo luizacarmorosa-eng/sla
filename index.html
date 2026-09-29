@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-Pulse | Notícias de K-Pop</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts para tipografia moderna -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="navbar">
+        <div class="logo">K-PULSE<span>.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#comebacks">Comebacks</a></li>
+                <li><a href="#ranking">Charts</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="btn-theme">🌙 Dark</button>
+    </header>
+
+    <!-- Banner Principal / Destaque -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="badge">Destaque</span>
+            <h1>Confira os lançamentos e comebacks mais aguardados do mês</h1>
+            <p>Fique por dentro de todas as novidades, MV's mais vistos e recordes do mundo do K-Pop.</p>
+        </div>
+    </section>
+
+    <!-- Filtros de Categoria -->
+    <section class="filters-container">
+        <button class="filter-btn active" data-category="all">Todos</button>
+        <button class="filter-btn" data-category="comeback">Comebacks</button>
+        <button class="filter-btn" data-category="charts">Charts</button>
+        <button class="filter-btn" data-category="events">Eventos</button>
+    </section>
+
+    <!-- Grid de Notícias -->
+    <main class="news-container" id="news-grid">
+        <!-- As notícias serão carregadas dinamicamente via JavaScript -->
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 K-Pulse. Criado para o GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
